@@ -1,0 +1,44 @@
+{
+  "name": "grunt-plist",
+  "description": "Grunt plugin for patching macOS plist files",
+  "version": "1.0.0",
+  "homepage": "https://github.com/NielsLeenheer/grunt-plist",
+  "author": {
+    "name": "Niels Leenheer",
+    "email": "info@html5test.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NielsLeenheer/grunt-plist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NielsLeenheer/grunt-plist/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/NielsLeenheer/grunt-plist/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "lint": "eslint --fix tasks/*.js"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "lodash.merge": "^4.6.2",
+    "plist": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
