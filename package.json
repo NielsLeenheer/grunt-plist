@@ -1,7 +1,7 @@
 {
   "name": "grunt-plist",
   "description": "Grunt plugin for patching macOS plist files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/NielsLeenheer/grunt-plist",
   "author": {
     "name": "Niels Leenheer",
